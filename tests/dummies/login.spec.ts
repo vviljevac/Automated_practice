@@ -113,6 +113,6 @@ test('12-Verify the tooltip shows when the circled question mark is hovered', as
 });
 
 test('13-Verify the "Register" button navigates to a registration web page', async ({ page }) => {
-    await v.clickLogin();
+    await v.clickRegister();
     expect(page.url()).toContain('https://account.wiley.com/registration');
 });
